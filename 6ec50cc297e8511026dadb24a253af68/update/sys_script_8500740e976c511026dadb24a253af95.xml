@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_843001_event_app_review_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Review Date Check</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var reviewutils = new ReviewUtils();
+	var isPast = reviewutils.isDatePast(current.date_event_review);
+	if(!isPast == true) {
+		gs.addErrorMessage("Selected date cannot be in the future! Enter date only for past events.");
+		current.setAbortAction(true);
+	}
+	
+	var isToday = reviewutils.isDateToday(current.date_event_review);
+	if(isToday == true){
+		gs.addErrorMessage("You cannot submit more requests for today.");
+		current.setAbortAction(true);
+	}
+			
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 21:11:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8500740e976c511026dadb24a253af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Date Check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_script_8500740e976c511026dadb24a253af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 21:11:07</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8500740e976c511026dadb24a253af95"/>
+</record_update>

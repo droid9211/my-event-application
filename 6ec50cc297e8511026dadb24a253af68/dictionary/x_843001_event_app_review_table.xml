@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Review Table" max_length="40" name="x_843001_event_app_review_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="4000" name="comment_event_review" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" mandatory="true" max_length="40" name="date_event_review" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" dependent="date_event_review" dependent_on_field="date_event_review" label="Event" mandatory="true" max_length="32" name="name_event_review" reference="x_843001_event_app_event_table" type="reference" use_dependent_field="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Star Rating" max_length="40" name="star_rating_reference" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" dependent="user_event_review" dependent_on_field="user_event_review" label="User" max_length="32" name="user_event_review" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="name_event_review"/>
+        </index>
+        <index name="index2">
+            <element name="user_event_review"/>
+        </index>
+    </element>
+</database>

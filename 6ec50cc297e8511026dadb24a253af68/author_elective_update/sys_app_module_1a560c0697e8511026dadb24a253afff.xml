@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My Event Application">52560c0697e8511026dadb24a253aff7</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmdb_ci_appl_dot_net</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:01:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a560c0697e8511026dadb24a253afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_app_module_1a560c0697e8511026dadb24a253afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:01:12</sys_updated_on>
+        <timeline_page/>
+        <title>All</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_app_module_1a560c0697e8511026dadb24a253afff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My Event Application">52560c0697e8511026dadb24a253aff7</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>cmdb_ci_appl_dot_net</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-08 18:01:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a560c0697e8511026dadb24a253afff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package><sys_policy/><sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope><sys_update_name>sys_app_module_1a560c0697e8511026dadb24a253afff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-08 18:01:12</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1811401135</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>2ec50cc297e8511026dadb24a253af6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:01:12</sys_created_on>
+        <sys_id>d2560c4697e8511026dadb24a253af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181def90c060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:01:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1e560c4618e851101698bf5cbe14d25a</update_guid>
+        <update_guid_history>1e560c4618e851101698bf5cbe14d25a:-1811401135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">7d2b848a97e8511026dadb24a253afff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:22:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>7c64a949fd444a0c9a19cf8138c5c8e1</sys_id>
+        <sys_metadata>1a560c0697e8511026dadb24a253afff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_scope_delete display_value="">0417457f95d647649310d9de67a89390</sys_scope_delete>
+        <sys_update_name>sys_app_module_1a560c0697e8511026dadb24a253afff</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1a560c0697e8511026dadb24a253afff">d2560c4697e8511026dadb24a253af5b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:22:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

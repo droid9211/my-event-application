@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My Event Application">52560c0697e8511026dadb24a253aff7</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>.NET Application</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:01:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da560c0697e8511026dadb24a253affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.NET Application</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_app_module_da560c0697e8511026dadb24a253affa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:01:12</sys_updated_on>
+        <timeline_page/>
+        <title>.NET Application</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_app_module_da560c0697e8511026dadb24a253affa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My Event Application">52560c0697e8511026dadb24a253aff7</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>.NET Application</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-08 18:01:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>da560c0697e8511026dadb24a253affa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.NET Application</sys_name><sys_overrides/><sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package><sys_policy/><sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope><sys_update_name>sys_app_module_da560c0697e8511026dadb24a253affa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-08 18:01:12</sys_updated_on><timeline_page/><title>.NET Application</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1736533644</payload_hash>
+        <record_name>.NET Application</record_name>
+        <reverted_from/>
+        <source>2ec50cc297e8511026dadb24a253af6a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:01:12</sys_created_on>
+        <sys_id>16560c0697e8511026dadb24a253affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181def90bdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:01:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e560c066ce85110b2da3651a2d90efc</update_guid>
+        <update_guid_history>5e560c066ce85110b2da3651a2d90efc:1736533644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".NET Application">5386008697e8511026dadb24a253af0e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 18:02:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>03f7430148024d0080121c2d4cb24000</sys_id>
+        <sys_metadata>da560c0697e8511026dadb24a253affa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.NET Application</sys_name>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_scope_delete display_value="">0417457f95d647649310d9de67a89390</sys_scope_delete>
+        <sys_update_name>sys_app_module_da560c0697e8511026dadb24a253affa</sys_update_name>
+        <sys_update_version display_value="sys_app_module_da560c0697e8511026dadb24a253affa">16560c0697e8511026dadb24a253affd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:02:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

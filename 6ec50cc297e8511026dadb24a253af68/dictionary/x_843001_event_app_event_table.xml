@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Event Table" max_length="40" name="x_843001_event_app_event_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Event Date" max_length="40" name="event_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" dependent="assigned_to" dependent_on_field="assigned_to" label="Proposed by" max_length="32" name="event_proposed_by" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUser().getRecord().getValue('email');" dependent="sys_id" dependent_on_field="sys_id" label="Email" max_length="40" name="event_proposed_by_email" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Name" mandatory="true" max_length="40" name="event_tab_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Event" max_length="50" name="type_of_event" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="Online" sequence="2" value="online"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" dependent="type_of_event" dependent_on_field="type_of_event" label="Other" max_length="40" name="type_of_event_other" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>

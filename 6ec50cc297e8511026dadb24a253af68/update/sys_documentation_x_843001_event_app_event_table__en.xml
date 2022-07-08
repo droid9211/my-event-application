@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Event Table" language="en" table="x_843001_event_app_event_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Event Table</label>
+            <language>en</language>
+            <name>x_843001_event_app_event_table</name>
+            <plural>Event Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-08 18:03:48</sys_created_on>
+            <sys_id>1cf6848697e8511026dadb24a253af50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Event Table</sys_name>
+            <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+            <sys_update_name>sys_documentation_x_843001_event_app_event_table__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-08 18:03:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
