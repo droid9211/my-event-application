@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="datePastProperty">d3e03d529720d11026dadb24a253af47</category>
+        <order>100</order>
+        <property display_value="x_843001_event_app.daysInPast" name="x_843001_event_app.daysInPast">e3837dd29720d11026dadb24a253afab</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 20:41:43</sys_created_on>
+        <sys_id>67a471569720d11026dadb24a253affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_843001_event_app.daysInPast.datePastProperty</sys_name>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_67a471569720d11026dadb24a253affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 20:41:43</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

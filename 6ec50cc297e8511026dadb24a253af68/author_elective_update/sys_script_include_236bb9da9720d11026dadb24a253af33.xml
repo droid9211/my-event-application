@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_843001_event_app.GetEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+            getEmail: function() {
+                var details = {};
+                var userId = this.getParameter('sysparm_userID');
+                var userObj = new GlideRecord('sys_user');
+                userObj.addQuery('sys_id', userId);
+                userObj.query();
+                if (userObj.next()) {
+                    details.email = userObj.email_id.toString();
+                }
+                return JSON.stringify(details);
+            },
+
+           
+            type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 21:12:15</sys_created_on>
+        <sys_id>236bb9da9720d11026dadb24a253af33</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_script_include_236bb9da9720d11026dadb24a253af33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 22:09:09</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_script_include_236bb9da9720d11026dadb24a253af33</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_843001_event_app.GetEmailAddress&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetEmailAddress&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+            getEmail: function() {
+                var details = {};
+                var userId = this.getParameter('sysparm_userID');
+                var userObj = new GlideRecord('sys_user');
+                userObj.addQuery('sys_id', userId);
+                userObj.query();
+                if (userObj.next()) {
+                    details.email = userObj.email_id.toString();
+                }
+                return JSON.stringify(details);
+            },
+
+           
+            type: 'GetEmailAddress'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-09 21:12:15&lt;/sys_created_on&gt;&lt;sys_id&gt;236bb9da9720d11026dadb24a253af33&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetEmailAddress&lt;/sys_name&gt;&lt;sys_package display_value="My Event Application" source="x_843001_event_app"&gt;6ec50cc297e8511026dadb24a253af68&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="My Event Application"&gt;6ec50cc297e8511026dadb24a253af68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_236bb9da9720d11026dadb24a253af33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-09 22:09:09&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1912007420</payload_hash>
+        <record_name>GetEmailAddress</record_name>
+        <reverted_from/>
+        <source>206a058697ec511026dadb24a253af6f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 22:09:09</sys_created_on>
+        <sys_id>d0b88a1a9760d11026dadb24a253afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181e5026b0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 22:09:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d8b88a1a6360d1109163f6d8c84b83c4</update_guid>
+        <update_guid_history>d8b88a1a6360d1109163f6d8c84b83c4:1912007420,afb042529e60d1104f043b177829ba90:-952069477,15b04252c860d1108998881f57c53b14:545895008,56504e129160d110d9680da17dbdbf12:-952069477,77fd359e4120d11032f3d45f8e7ded23:545895008,beabb9dacf20d1104cfe24c523ee954a:-952069477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 22:12:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>adae86888e614862b6d4201c8c097904</sys_id>
+        <sys_metadata>236bb9da9720d11026dadb24a253af33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_scope_delete display_value="">0417457f95d647649310d9de67a89390</sys_scope_delete>
+        <sys_update_name>sys_script_include_236bb9da9720d11026dadb24a253af33</sys_update_name>
+        <sys_update_version display_value="sys_script_include_236bb9da9720d11026dadb24a253af33">d0b88a1a9760d11026dadb24a253afc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 22:12:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

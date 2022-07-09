@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Number of days in advance required to save an event</description>
+        <description>Number of days in the past required to save an event</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_843001_event_app.daysInAdvance</name>
+        <name>x_843001_event_app.daysInPast</name>
         <read_roles/>
-        <suffix>daysInAdvance</suffix>
+        <suffix>daysInPast</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-08 23:24:28</sys_created_on>
-        <sys_id>7030990e97ec511026dadb24a253afcc</sys_id>
+        <sys_created_on>2022-07-09 20:39:16</sys_created_on>
+        <sys_id>e3837dd29720d11026dadb24a253afab</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_843001_event_app.daysInAdvance</sys_name>
+        <sys_name>x_843001_event_app.daysInPast</sys_name>
         <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
-        <sys_update_name>sys_properties_7030990e97ec511026dadb24a253afcc</sys_update_name>
+        <sys_update_name>sys_properties_e3837dd29720d11026dadb24a253afab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-09 20:28:37</sys_updated_on>
+        <sys_updated_on>2022-07-09 20:52:54</sys_updated_on>
         <type>integer</type>
         <value>5</value>
         <write_roles/>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=7030990e97ec511026dadb24a253afcc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3837dd29720d11026dadb24a253afab"/>
 </record_update>

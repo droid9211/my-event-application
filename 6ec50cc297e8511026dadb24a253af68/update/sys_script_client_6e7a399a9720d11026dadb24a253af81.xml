@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Note Proposed by Autofill set</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	var userId = g_user.userID;
+
+    if (g_form.isNewRecord()) {
+        g_form.setValue('note_proposed_by', userId);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-09 21:08:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e7a399a9720d11026dadb24a253af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Note Proposed by Autofill set</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
+        <sys_update_name>sys_script_client_6e7a399a9720d11026dadb24a253af81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-09 21:08:32</sys_updated_on>
+        <table>x_843001_event_app_notes_table</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

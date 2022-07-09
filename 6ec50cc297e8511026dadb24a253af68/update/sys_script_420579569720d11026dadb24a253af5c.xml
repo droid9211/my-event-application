@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_843001_event_app_event_table</collection>
+        <collection>x_843001_event_app_notes_table</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Check Days in Advance</name>
+        <name>Check Past Days Number</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,31 +29,31 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-    var daysInAdvance = gs.getProperty('x_843001_event_app.daysInAdvance');
-    var dateToCheck = gs.daysAgo(-daysInAdvance);
-    if (current.event_date < dateToCheck) {
+    var daysInPast = gs.getProperty('x_843001_event_app.daysInPast');
+    var dayToCheck = gs.daysAgo(daysInPast);
+    if (current.note_when_happened < dayToCheck) {
         current.setAbortAction(true);
-        gs.addErrorMessage("Incorrect: Entered date should be at least " + daysInAdvance + " days in the future");
+        gs.addErrorMessage("Incorrect: You cannot add notes which happened at least " + daysInPast + " days in the past");
     }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-08 23:29:03</sys_created_on>
+        <sys_created_on>2022-07-09 20:47:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fca0d14e97ec511026dadb24a253af7d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Check Days in Advance</sys_name>
+        <sys_id>420579569720d11026dadb24a253af5c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Check Past Days Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
-        <sys_update_name>sys_script_fca0d14e97ec511026dadb24a253af7d</sys_update_name>
+        <sys_update_name>sys_script_420579569720d11026dadb24a253af5c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-09 20:30:04</sys_updated_on>
+        <sys_updated_on>2022-07-09 21:05:19</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=fca0d14e97ec511026dadb24a253af7d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=420579569720d11026dadb24a253af5c"/>
 </record_update>
