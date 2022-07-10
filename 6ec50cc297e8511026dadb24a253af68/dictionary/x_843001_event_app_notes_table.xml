@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Notes Table" max_length="40" name="x_843001_event_app_notes_table" type="collection">
+    <element extends="task" label="Notes Table" max_length="40" name="x_843001_event_app_notes_table" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="assigned_to" dependent_on_field="assigned_to" label="Proposed by" max_length="32" name="note_proposed_by" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUser().getRecord().getValue('email');" label="Proposed by Email" max_length="40" name="note_proposed_by_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="note_status" read_only="true" type="integer">
@@ -8,6 +8,13 @@
         <element attributes="edge_encryption_enabled=true" label="What happened" mandatory="true" max_length="166" name="note_what_happened" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="When happened" mandatory="true" max_length="40" name="note_when_happened" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="note_proposed_by" dependent_on_field="note_proposed_by" label="Proposed by Email" max_length="32" name="proposed_by_email" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Reviewing" sequence="1" value="reviewing"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_4" type="string"/>
     </element>
 </database>

@@ -5,8 +5,8 @@
         <base_table>task</base_table>
         <calculation/>
         <calculation_override>false</calculation_override>
-        <default_value/>
-        <default_value_override>false</default_value_override>
+        <default_value>1</default_value>
+        <default_value_override>true</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
@@ -14,7 +14,7 @@
         <mandatory>false</mandatory>
         <mandatory_override>false</mandatory_override>
         <name>x_843001_event_app_notes_table</name>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_only_override>true</read_only_override>
         <reference_qual/>
         <reference_qual_override>false</reference_qual_override>
@@ -22,13 +22,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-09 20:06:30</sys_created_on>
         <sys_id>279ca95e97ec911026dadb24a253af20</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>state</sys_name>
         <sys_package display_value="My Event Application" source="x_843001_event_app">6ec50cc297e8511026dadb24a253af68</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Event Application">6ec50cc297e8511026dadb24a253af68</sys_scope>
         <sys_update_name>sys_dictionary_override_279ca95e97ec911026dadb24a253af20</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-09 20:06:30</sys_updated_on>
+        <sys_updated_on>2022-07-10 20:50:35</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

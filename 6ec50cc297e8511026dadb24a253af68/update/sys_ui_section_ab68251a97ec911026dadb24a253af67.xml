@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>c3b1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>489147ea9720111026dadb24a253afed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>note_proposed_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>47b1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>cc9147ea9720111026dadb24a253afed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>c7b1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>409147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
+            <element>status</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>4bb1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>c09147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>note_proposed_by_email</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>cbb1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>449147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>4fb1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>c49147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>cfb1c2929760d11026dadb24a253af3a</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>489147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>note_what_happened</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>43b1c2929760d11026dadb24a253af3b</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>c89147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>c3b1c2929760d11026dadb24a253af3b</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>4c9147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>note_when_happened</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>47b1c2929760d11026dadb24a253af3b</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>cc9147ea9720111026dadb24a253afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>c7b1c2929760d11026dadb24a253af3b</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>409147ea9720111026dadb24a253afef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>description</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-07-09 21:38:45</sys_created_on>
-            <sys_id>4bb1c2929760d11026dadb24a253af3b</sys_id>
+            <sys_created_on>2022-07-10 20:56:07</sys_created_on>
+            <sys_id>c09147ea9720111026dadb24a253afef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_843001_event_app_notes_table" sys_domain="global" view="Default view">ab68251a97ec911026dadb24a253af67</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-07-09 21:38:45</sys_updated_on>
+            <sys_updated_on>2022-07-10 20:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
